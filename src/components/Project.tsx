@@ -33,7 +33,7 @@ const Project :FC<ProjectProps> = ({project}):JSX.Element =>{
                     className="zoom" alt="thumbnail" width="100%"
                 />
             </a>
-            <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
+            <a target="_blank" rel="noreferrer">
                 <h2 className='project-title'>{project.name}</h2>
                 <a href={`${project.linkRepo}`} target="_blank" rel="noreferrer"><GitHubIcon/></a>
             </a>

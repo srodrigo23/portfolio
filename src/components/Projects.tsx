@@ -27,13 +27,13 @@ const Projects = () => {
         {
             name : 'Video Surveillance Smart System',
             linkRepo : 'https://github.com/srodrigo23/security-camera.git',
-            description : 'Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.', 
+            description : 'System to video surveillance to detect persons, fire, smoke and movement powered with OpenCV.', 
             mockImage : mock03
         },
         {
             name : 'My Portfolio',
-            linkRepo : 'www.google.com',
-            description : 'Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.', 
+            linkRepo : 'https://github.com/srodrigo23/portfolio.git',
+            description : 'Professional Portfolio to show dev experience.', 
             mockImage : mock04
         }
     ]
