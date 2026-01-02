@@ -13,6 +13,7 @@ function Main() {
   // Function will execute on click of button
   const answer = PageviewsCounter();
   console.log(answer);
+  
   const onButtonClick = () => {    
     // using Java Script method to get PDF file
     fetch("./cv_2025.pdf").then((response) => {

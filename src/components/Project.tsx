@@ -20,16 +20,12 @@ interface ProjectProps {
 }
 
 const Project :FC<ProjectProps> = ({project}):JSX.Element =>{
-
     return (
-
-        
         <div className="project">
             <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
                 <img 
                     src={project.mockImage}
                     height={350}
-                    
                     className="zoom" alt="thumbnail" width="100%"
                 />
             </a>
